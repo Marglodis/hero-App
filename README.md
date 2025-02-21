@@ -2,6 +2,11 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
 
+## Dev
+1. Clonar el proyecto
+2. Ejecutar ```npm install```
+3. Levantar backend ```npm run backend```
+4. Ejecutar la app ```npm start``` o bien ```ng serve -o```
 ## Development server
 
 To start a local development server, run:
