@@ -21,4 +21,11 @@ export class HeroesService {
             catchError(err => of(undefined)
         ));
     }
+
+    getSuggestions(term: string):Observable<Hero[]> {
+        if(!term.trim()) {
+            return of([]);
+        }
+        return this.http.get<Hero[]>(`${this.baseUrl}/heroes?q=${term}&_limit=6`);
+    }
 }
