@@ -2,7 +2,7 @@
   "users": [
     {
       "id": "1",
-      "usuario": "John Doe",
+      "user": "John Doe",
       "email": "john.due@gmail.com"
     }
   ],
@@ -21,8 +21,7 @@
       "publisher": "DC Comics",
       "alter_ego": "Kal-El",
       "first_appearance": "Action Comics #1",
-      "characters": "Kal-El, Dean Cain, Tom Welling",
-      "alt_image": "https://www.supermanhomepage.com/clickandbuilds/SupermanHomepage/wp-content/uploads/slider214/FINCR_EE_FINAL_cvr_color.jpeg"
+      "characters": "Kal-El"
     },
     {
       "id": "dc-flash",
@@ -31,6 +30,14 @@
       "alter_ego": "Jay Garrick",
       "first_appearance": "Flash Comics #1",
       "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
+    },
+    {
+      "id": "dc-green",
+      "superhero": "Green Lantern",
+      "publisher": "DC Comics",
+      "alter_ego": "Alan Scott",
+      "first_appearance": "All-American Comics #16",
+      "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
     },
     {
       "id": "dc-arrow",
